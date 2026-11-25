@@ -2,7 +2,9 @@
 
 A RAG-based GenAI chatbot that answers questions about 700+ California wineries. It uses **Fivetran** to move structured data into **Snowflake**, **Snowflake Cortex** for embeddings and LLMs, and **Streamlit in Snowflake** for the chat interface.
 
-![architecture](docs/architecture.png) <!-- optional: add your own screenshot -->
+![RAG answer with Kohlleffel Vineyards details](docs/architecture.png)
+
+![RAG chunks used](docs/rag-chunks-used.png)
 
 ## How it works
 
